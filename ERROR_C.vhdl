@@ -8,7 +8,7 @@ entity error_c is
  port (
  	X, O: in std_logic_vector(8 downto 0);
  	error: out std_logic);
- end error_c
+ end error_c;
  
  architecture bhv of error_c is
   begin

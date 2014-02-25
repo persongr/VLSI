@@ -8,7 +8,7 @@ entity full_c is
  port (
  	X, O: in std_logic_vector(8 downto 0);
  	full: out std_logic);
- end full_c
+ end full_c;
  
  architecture bhv of full_c is
   begin
